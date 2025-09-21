@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Rudresh | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -19,7 +19,7 @@
     <section id="about">
       <div class="container about-content">
         <img src="16958.png" alt="My Photo" class="profile-pic" />
-        <div>
+        <div class="about-text">
           <h2>About Me</h2>
           <p>
             I’m a passionate MERN stack developer committed to using technology
@@ -34,13 +34,13 @@
     <section id="skills">
       <div class="container">
         <h2>Skills</h2>
-        <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>React & Node.js</li>
-          <li>MongoDB & PostgreSQL</li>
-          <li>Community Leadership</li>
-          <li>Public Speaking & Mentoring</li>
-        </ul>
+        <div class="skills-grid">
+          <div class="skill-card">HTML, CSS, JavaScript</div>
+          <div class="skill-card">React & Node.js</div>
+          <div class="skill-card">MongoDB & PostgreSQL</div>
+          <div class="skill-card">Community Leadership</div>
+          <div class="skill-card">Public Speaking & Mentoring</div>
+        </div>
       </div>
     </section>
 
@@ -48,15 +48,19 @@
     <section id="projects">
       <div class="container">
         <h2>Projects</h2>
-        <div class="project">
-          <h3>Community Wall for Learners</h3>
-          <p>
-            A platform where learners can share knowledge and grow together.
-          </p>
-        </div>
-        <div class="project">
-          <h3>Personal Finance Tracker</h3>
-          <p>Helps individuals manage expenses and gain financial awareness.</p>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Community Wall for Learners</h3>
+            <p>
+              A platform where learners can share knowledge and grow together.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Personal Finance Tracker</h3>
+            <p>
+              Helps individuals manage expenses and gain financial awareness.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -65,10 +69,9 @@
     <section id="resume">
       <div class="container">
         <h2>Resume</h2>
-        <p>
-          Download my resume here:
-          <a href="Rudresh&Resume.pdf" download>Download Resume (PDF)</a>
-        </p>
+        <a href="Rudresh&Resume.pdf" download class="btn"
+          >Download Resume (PDF)</a
+        >
       </div>
     </section>
 
@@ -82,7 +85,7 @@
             >rudreshsankpal21@gmail.com</a
           >
         </p>
-        <p>Phone: +91-9876543210</p>
+        <p>Phone: +91-9766810462</p>
       </div>
     </section>
 
@@ -91,7 +94,9 @@
       <div class="container">
         <p>© 2025 Rudresh | All Rights Reserved</p>
         <p>
-          <a href="https://www.jamunafoundation.com/">Jamuna Foundation</a>
+          <a href="https://jamunafoundation.com" target="_blank"
+            >Jamuna Foundation</a
+          >
         </p>
       </div>
     </footer>
